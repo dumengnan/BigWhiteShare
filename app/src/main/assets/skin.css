@@ -1,0 +1,50 @@
+/*
+|Burningsoul
+|whiteboard-android
+*/
+body,html{margin: 0px;
+padding: 0px;border: 0px;
+background:#f2f2f2;
+font-family: Verdana, Geneva, sans-serif;
+position: absolute;
+height: 100%; width: 100%;
+}
+
+#myCanvas{
+	border:solid #62f209 1px;
+	position: absolute;
+	z-index: 100;
+	}
+
+#tools{
+	z-index: 105;
+	position: absolute;
+	display: block;
+	height: 60px;
+	width:60px;
+	padding: 5px;
+
+}
+#tools_icon{
+	background: url('android_skin.png');
+	display: block;
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	
+}
+#tools_bar{
+	width: 60px;
+	position: absolute;
+	z-index: 101;
+	background: rgba(18,220,180,0.7);
+	display: block;
+	padding: 5px;
+}
+.clear_screen{
+	width: 60px;
+	background: url('android_skin.png') -50px 0px;
+	height: 60px;
+	display: block;
+	margin-top: 50px;
+}
